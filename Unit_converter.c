@@ -1,10 +1,10 @@
-#define _CRT_SECURE_NO_WARNINGS  // Visual Studio °æ¿ì¿¡¸¸ »ç¿ë scnaf ¿À·ù ¹æÁö
-#include<stdio.h> // Çì´õ Ãß°¡
+// #define _CRT_SECURE_NO_WARNINGS | Visual Studio ê²½ìš°ì—ë§Œ ì‚¬ìš© scnaf ì˜¤ë¥˜ ë°©ì§€
+#include<stdio.h> // í—¤ë” ì¶”ê°€
 
-double cm; // ½Ç¼öÇü º¯¼ö cm ¼±¾ğ
+double cm; // ì‹¤ìˆ˜í˜• ë³€ìˆ˜ cm ì„ ì–¸
 
 int main() {
 	printf("cm : ");
 	scanf("%lf", &cm);
-	printf("%g cm = %g inch\n", cm, cm / 2.54); // °ø½Ä Àû¿ë
+	printf("%g cm = %g inch\n", cm, cm / 2.54); // ê³µì‹ ì ìš©
 }
